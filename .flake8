@@ -7,6 +7,6 @@ ignore = W503, E203, E221, C901, C408, E741, C407, E741, C404
 max-line-length = 100
 max-complexity = 18
 select = B,C,E,F,W,T4,B9
-exclude = build
+exclude = build exam_datasets configs docker docs dev
 per-file-ignores =
   **/__init__.py:F401,F403
