@@ -143,7 +143,9 @@ if __name__ == "__main__":
                 filename=output_fname,
                 # some installation of opencv may not support x264 (due to its license),
                 # you can try other format (e.g. MPEG)
-                fourcc=cv2.VideoWriter_fourcc(*"x264"),
+                #fourcc=cv2.VideoWriter_fourcc(*"x264"),
+                # ethan: https://github.com/facebookresearch/detectron2/issues/2901
+                fourcc=cv2.VideoWriter_fourcc(*"mp4v"),
                 fps=float(frames_per_second),
                 frameSize=(width, height),
                 isColor=True,
