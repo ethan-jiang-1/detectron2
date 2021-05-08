@@ -11,6 +11,8 @@ exam_datasets
 *.diff
 *.jpg
 !/projects/DensePose/doc/images/*.jpg
+!/playing_cards/train/*.jpg
+!/playing_cards/test/*.jpg
 
 # compilation and distribution
 __pycache__
